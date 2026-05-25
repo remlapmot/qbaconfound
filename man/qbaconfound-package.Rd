@@ -16,13 +16,13 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Tom Palmer \email{remlapmot@hotmail.com}
+\strong{Maintainer}: Tom Palmer \email{remlapmot@hotmail.com} (\href{https://orcid.org/0000-0003-4655-4511}{ORCID}) (\href{https://ror.org/0524sp257}{ROR})
 
 Authors:
 \itemize{
-  \item Tom Palmer \email{remlapmot@hotmail.com}
-  \item Rachael Hughes
-  \item Emily Kawabata
+  \item Tom Palmer \email{remlapmot@hotmail.com} (\href{https://orcid.org/0000-0003-4655-4511}{ORCID}) (\href{https://ror.org/0524sp257}{ROR})
+  \item Emily Kawabata (\href{https://orcid.org/0000-0003-4178-5513}{ORCID})
+  \item Rachael Hughes (\href{https://orcid.org/0000-0003-0766-1410}{ORCID})
 }
 
 }

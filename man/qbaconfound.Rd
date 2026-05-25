@@ -94,7 +94,7 @@ fit
 \references{
 Hughes RA, Kawabata E, Palmer TM, et al. A flexible Monte Carlo quantitative
 bias analysis for unmeasured confounding. \emph{Statistical Methods in Medical
-Research} (forthcoming).
+Research} (under review).
 }
 \seealso{
 \code{\link[=u_continuous]{u_continuous()}}, \code{\link[=u_binary]{u_binary()}}, \code{\link[=sim_confounding]{sim_confounding()}}
