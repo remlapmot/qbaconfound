@@ -37,6 +37,15 @@ measured confounders.
 
 ## Installation
 
+You can install a binary version from the [MRC IEU
+R-universe](https://mrcieu.r-universe.dev/) with
+
+``` r
+install.packages('qbaconfound', repos = c('https://mrcieu.r-universe.dev', 'https://cloud.r-project.org'))
+```
+
+or install from source using
+
 ``` r
 # install.packages("remotes")
 remotes::install_github("remlapmot/qbaconfound")
