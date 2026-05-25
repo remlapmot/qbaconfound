@@ -56,7 +56,7 @@
 #' @references
 #' Hughes RA, Kawabata E, Palmer TM, et al. A flexible Monte Carlo quantitative
 #' bias analysis for unmeasured confounding. *Statistical Methods in Medical
-#' Research* (forthcoming).
+#' Research* (under review).
 #'
 #' @seealso [u_continuous()], [u_binary()], [sim_confounding()]
 #' @export
