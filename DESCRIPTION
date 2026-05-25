@@ -1,29 +1,32 @@
 Package: qbaconfound
-Type: Package
 Title: Monte Carlo Quantitative Bias Analysis for Unmeasured Confounding
 Version: 0.0.0.9000
 Authors@R: c(
-    person("Tom", "Palmer", email = "remlapmot@hotmail.com",
-           role = c("aut", "cre")),
-    person("Rachael", "Hughes", role = "aut"),
-    person("Emily", "Kawabata", role = "aut"))
+    person("Tom", "Palmer", , "remlapmot@hotmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-4655-4511", ROR = "0524sp257")),
+    person("Emily", "Kawabata", role = "aut",
+           comment = c(ORCID = "0000-0003-4178-5513")),
+    person("Rachael", "Hughes", role = "aut",
+           comment = c(ORCID = "0000-0003-0766-1410"))
+  )
 Description: A flexible Monte Carlo quantitative bias analysis (QBA) for
-    unmeasured confounding in observational studies, as described in Hughes
-    et al. The substantive analysis may be a generalised linear model or a
-    Cox proportional hazards model with a binary, continuous, or categorical
-    exposure and measured confounders. The method allows for one or more
-    binary or continuous unmeasured confounders that may be correlated with
-    the measured confounders. Informative priors for a small number of bias
-    parameters encode external information about the unmeasured confounders.
+    unmeasured confounding in observational studies, as described in
+    Hughes et al. The substantive analysis may be a generalised linear
+    model or a Cox proportional hazards model with a binary, continuous,
+    or categorical exposure and measured confounders. The method allows
+    for one or more binary or continuous unmeasured confounders that may
+    be correlated with the measured confounders. Informative priors for a
+    small number of bias parameters encode external information about the
+    unmeasured confounders.
 License: MIT + file LICENSE
-Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
+URL: https://github.com/remlapmot/qbaconfound
+BugReports: https://github.com/remlapmot/qbaconfound/issues
 Imports:
     stats,
     survival
 Suggests:
     testthat (>= 3.0.0)
-Config/testthat/edition: 3
-URL: https://github.com/remlapmot/qbaconfound
-BugReports: https://github.com/remlapmot/qbaconfound/issues
+Config/roxygen2/markdown: TRUE
 Config/roxygen2/version: 8.0.0
+Config/testthat/edition: 3
+Encoding: UTF-8
