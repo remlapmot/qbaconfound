@@ -19,7 +19,8 @@ Description: A flexible Monte Carlo quantitative bias analysis (QBA) for
     small number of bias parameters encode external information about the
     unmeasured confounders.
 License: MIT + file LICENSE
-URL: https://github.com/remlapmot/qbaconfound
+URL: https://github.com/remlapmot/qbaconfound,
+    https://mrcieu.r-universe.dev/qbaconfound
 BugReports: https://github.com/remlapmot/qbaconfound/issues
 Imports:
     stats,
