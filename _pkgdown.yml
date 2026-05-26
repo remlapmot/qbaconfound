@@ -1,0 +1,7 @@
+url: https://remlapmot.github.io/qbaconfound/
+template:
+  bootstrap: 5
+  light-switch: true
+navbar:
+  structure:
+    right: [search, github, lightswitch]
